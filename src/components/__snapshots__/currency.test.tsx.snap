@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Currency/> should render correct input for canadian dollar 1`] = `
+<div>
+  <div
+    class="currency-card"
+    id="CAD"
+  >
+    <div
+      class="currency-value"
+    >
+      <div
+        class="currency-symbol"
+        data-testid="testid-currency-symbol"
+      >
+        $
+      </div>
+      <div
+        class="currency-value-to-base"
+        data-testid="testid-currency-value-CAD"
+      >
+        1.5510
+      </div>
+    </div>
+    <div
+      class="currency-summary"
+      data-testid="testid-currency-summary"
+    >
+      1 CAD = 1.551 EUR
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+.list-container {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.base-currency {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  .label-text {
+    padding-right: 1rem;
+  }
+  .base-value {
+    display: flex;
+  }
+  .base-currency-selection {
+    display: flex;
+  }
+}
+
+@media (max-width: 968px) {
+  .list-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .base-value {
+    .label-text {
+      display: none;
+    }
+  }
+  .base-currency {
+    .label-text {
+      display: none;
+    }
+  }
+}
